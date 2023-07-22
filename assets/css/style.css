@@ -11,6 +11,64 @@
 body {
     font-family: Arial;
     font-family: Montserrat, sans-serif;
-    font-weight: 400;
-    background: #e6e1da;
+    font-weight: 500;
+    background: #e6e1dd;
+    color: #3a3a3a;
+}
+
+/* header - headings and logo */
+
+h1,
+h2 {
+    font-family: Montserrat, sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: #803b54;
+}
+
+#logo {
+    font-family: Parisienne;
+    font-weight: 300;
+    font-size: 580%;
+    letter-spacing: normal;
+    margin-left: 20px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+/* link to source of this code: https: //stackoverflow.com/questions/69545183/putting-the-nav-bar-and-header-on-one-line  */
+#container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 40px;
+}
+
+/* header - navigation links */
+
+#site-nav {
+    font-size: 130%;
+    letter-spacing: 1px;
+}
+
+#site-nav li {
+    float: right;
+    margin-right: 20px;
+    list-style: none;
+}
+
+#site-nav a {
+    color: #803b54;
+    opacity: 0.8;
+}
+
+#site-nav a:hover {
+    border-bottom: 1px solid #9aa68e;
+    opacity: 1;
+}
+
+.active {
+    border-bottom: 1px solid #9aa68e;
 }
