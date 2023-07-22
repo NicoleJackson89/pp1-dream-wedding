@@ -1,0 +1,16 @@
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Parisienne&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Arial;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    background: #e6e1da;
+}
