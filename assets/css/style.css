@@ -32,6 +32,24 @@ h2 {
     font-size: 580%;
     letter-spacing: normal;
     margin-left: 20px;
+
+    /* animation for zoom effect on logo */
+
+    animation-name: logo-zoom;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+}
+
+/* level of zoom created */
+
+@keyframes logo-zoom {
+    from {
+        transform: scale(0.9);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
 }
 
 header a {
@@ -71,4 +89,25 @@ header a {
 
 .active {
     border-bottom: 1px solid #9aa68e;
+}
+
+/* hero image and outer */
+
+#hero-img-outer {
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+    color: #9aa68e;
+    background-color: #803b54;
+}
+
+#hero-img a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#hero-img {
+    height: 820px;
+    width: 100%;
+    background: url(../images/3\ decorated-table-setting-wedding-celebration\ \(1\).jpg) no-repeat center center;
 }
