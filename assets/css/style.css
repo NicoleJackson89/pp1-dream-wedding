@@ -12,7 +12,6 @@ body {
     font-family: Arial;
     font-family: Montserrat, sans-serif;
     font-weight: 500;
-    background: #e6e1dd;
     color: #3a3a3a;
 }
 
@@ -57,11 +56,12 @@ header a {
 }
 
 /* link to source of this code: https: //stackoverflow.com/questions/69545183/putting-the-nav-bar-and-header-on-one-line  */
+
 #container {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    margin: 40px;
+    margin: 30px;
 }
 
 /* header - navigation links */
@@ -98,7 +98,10 @@ header a {
     width: 100%;
     overflow: hidden;
     color: #9aa68e;
-    background-color: #803b54;
+
+    /* cover text */
+
+    position: relative;
 }
 
 #hero-img a {
@@ -107,7 +110,36 @@ header a {
 }
 
 #hero-img {
-    height: 820px;
+    height: 850px;
     width: 100%;
-    background: url(../images/3\ decorated-table-setting-wedding-celebration\ \(1\).jpg) no-repeat center center;
+    background: url(../images/Decorated-table-setting.jpg) no-repeat center center;
+}
+
+/* hero image cover text */
+
+#hero-text {
+    height: 150px;
+    width: 280px;
+
+    padding-top: 40px;
+    padding-left: 5px;
+
+    bottom: 20px;
+    right: 20px;
+
+    background-color: rgba(154, 166, 142, 0.8);
+
+    /* border radius code source: https: //9elements.github.io/fancy-border-radius/#59.82.86.28--. */
+
+    border-radius: 74% 26% 54% 46% / 57% 27% 73% 43%;
+
+    position: absolute;
+}
+
+#hero-text h2 {
+    font-family: inherit;
+    font-size: 180%;
+    color: #803b54;
+    font-weight: 800;
+    text-align: center;
 }
