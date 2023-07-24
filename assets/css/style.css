@@ -26,7 +26,8 @@ h2 {
 }
 
 #logo {
-    font-family: Parisienne;
+    font-family: Parisienne, Montserrat,
+        sans-serif;
     font-weight: 300;
     font-size: 580%;
     letter-spacing: normal;
@@ -144,4 +145,58 @@ header a {
     color: #803b54;
     font-weight: 800;
     text-align: center;
+}
+
+/* page content */
+
+#content-container {
+    margin: 30px;
+}
+
+#content-header {
+    font-family: Parisienne, Montserrat, sans-serif;
+    font-size: 240%;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 30px;
+}
+
+#vision {
+    float: left;
+    text-align: center;
+    width: 25%;
+    background-color: antiquewhite;
+}
+
+#budget {
+    float: right;
+    text-align: center;
+    width: 25%;
+    background-color: antiquewhite;
+}
+
+#design {
+    float: left;
+    text-align: center;
+    width: 25%;
+    background-color: antiquewhite;
+}
+
+#vendor {
+    float: right;
+    text-align: center;
+    width: 25%;
+    background-color: antiquewhite;
+}
+
+#bands-img {
+    height: 400px;
+    margin: 30px;
+    background: url(../images/wedding-bands-hands-bride-groom-with-beautiful-wedding-bouquet-made-greenery-white-flowers.jpg) no-repeat center center;
+}
+
+#table-img {
+    height: 400px;
+    margin: 30px;
+    background: url(../images/table-arrangement-with-flowers-view.jpg) no-repeat center center;
 }
