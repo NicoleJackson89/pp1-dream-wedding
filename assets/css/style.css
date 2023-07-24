@@ -39,7 +39,7 @@ h2 {
     animation-fill-mode: both;
 }
 
-/* level of zoom created */
+/* level of zoom created: code sourced and edited to my preference from the love running project */
 
 @keyframes logo-zoom {
     from {
@@ -113,6 +113,8 @@ header a {
     height: 850px;
     width: 100%;
     background: url(../images/Decorated-table-setting.jpg) no-repeat center center;
+    /* background-size: cover;
+    background-position: bottom center; */
 }
 
 /* hero image cover text */
