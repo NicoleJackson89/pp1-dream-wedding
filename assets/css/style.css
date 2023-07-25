@@ -114,8 +114,6 @@ header a {
     height: 850px;
     width: 100%;
     background: url(../images/Decorated-table-setting.jpg) no-repeat center center;
-    /* background-size: cover;
-    background-position: bottom center; */
 }
 
 /* hero image cover text */
@@ -150,7 +148,8 @@ header a {
 /* page content */
 
 #content-container {
-    margin: 30px;
+    /* margin: 30px; */
+    position: relative;
 }
 
 #content-header {
@@ -161,42 +160,90 @@ header a {
     margin: 30px;
 }
 
-#vision {
-    float: left;
-    text-align: center;
-    width: 25%;
-    background-color: antiquewhite;
-}
-
-#budget {
-    float: right;
-    text-align: center;
-    width: 25%;
-    background-color: antiquewhite;
-}
-
-#design {
-    float: left;
-    text-align: center;
-    width: 25%;
-    background-color: antiquewhite;
-}
-
-#vendor {
-    float: right;
-    text-align: center;
-    width: 25%;
-    background-color: antiquewhite;
-}
+/* what we offer main div 1 */
 
 #bands-img {
     height: 400px;
     margin: 30px;
-    background: url(../images/wedding-bands-hands-bride-groom-with-beautiful-wedding-bouquet-made-greenery-white-flowers.jpg) no-repeat center center;
+    position: relative;
 }
+
+#text-box-1 {
+    line-height: 25px;
+    text-align: center;
+    background-color: antiquewhite;
+    position: absolute;
+    height: 300px;
+    width: 50%;
+    
+    bottom: 50px;
+    right: 0px;
+}
+
+#bands-img-1 {
+    background-color: #803b54;
+    height: 400px;
+    width: 50%;
+
+    /* padding-top: 40px;
+    padding-left: 5px;
+
+    bottom: 20px;
+    right: 20px; */
+
+    overflow: hidden;
+}
+
+#bands-img-1 img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+hr {
+    margin: 10px;
+}
+
+/* what we offer main div 2 */
 
 #table-img {
     height: 400px;
     margin: 30px;
-    background: url(../images/table-arrangement-with-flowers-view.jpg) no-repeat center center;
+    position: relative;
+}
+
+#text-box-2 {
+    line-height: 25px;
+    text-align: center;
+    background-color: antiquewhite;
+    position: absolute;
+    height: 300px;
+    width: 50%;
+
+    bottom: 50px;
+    right: 0px;
+}
+
+#table-img-1 {
+    background-color: #803b54;
+    height: 400px;
+    width: 50%;
+
+    /* padding-top: 40px;
+    padding-left: 5px;
+
+    bottom: 20px;
+    right: 20px; */
+
+    overflow: hidden;
+}
+
+#table-img-1 img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+hr {
+    margin: 10px;
 }
