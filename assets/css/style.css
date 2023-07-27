@@ -30,7 +30,7 @@ h2 {
     font-family: Parisienne, Montserrat,
         sans-serif;
     font-weight: 300;
-    font-size: 580%;
+    font-size: 500%;
     letter-spacing: normal;
     margin-left: 20px;
 
@@ -273,3 +273,13 @@ hr {
 
 /* footer */
 
+#social {
+    height: 100px;
+    width: 100%;
+    margin-top: 30px;
+    background-color: #803b54;
+}
+
+#social li {
+    display: flex;
+}
