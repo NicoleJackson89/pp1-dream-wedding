@@ -168,7 +168,10 @@ header a {
 #bands-img {
     height: 400px;
     margin: 30px;
-    position: relative;
+
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
 }
 
 #text-box-1 {
@@ -176,13 +179,8 @@ header a {
     text-align: center;
     background-color: rgba(154, 166, 142, 0.4);
 
-    position: absolute;
-
     height: 300px;
     width: 70%;
-
-    bottom: 50px;
-    right: 0px;
 
     display: flex;
     flex-direction: row;
