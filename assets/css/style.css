@@ -299,6 +299,8 @@ footer {
     height: 180px;
     background-color: rgb(128, 59, 84);
     margin-top: 30px;
+    width: 100%;
+    bottom: 0px;
 }
 
 #social {
@@ -328,4 +330,27 @@ footer {
 
 #social-links i {
     color: white;
+}
+
+/* images - gallery */
+
+#grid-contain {
+    margin: 30px 5px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img-col {
+    flex: 22.5%;
+    max-width: 22.5%;
+    padding: 0 5px;
+}
+
+.img-col img {
+    padding: 5px;
+    vertical-align: middle;
+    width: 100%;
+    border-radius: 15px;
 }
