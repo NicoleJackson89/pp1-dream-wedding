@@ -12,8 +12,8 @@ body {
     font-family: Arial;
     font-family: Montserrat, sans-serif;
     font-weight: 500;
-    color: #3a3a3a;
-    background-color: rgb(222, 215, 205, 0.1);
+    color: #272727;
+    /* background-color: rgb(222, 215, 205, 0.1); */
 }
 
 /* header - headings and logo */
@@ -151,7 +151,6 @@ header a {
 
 #content-container {
     /* margin: 30px; */
-    position: relative;
 }
 
 #content-header {
@@ -163,7 +162,7 @@ header a {
     padding: 30px;
 }
 
-/* what we offer main div 1 */
+/* what we offer div 1 */
 
 #bands-img {
     height: 400px;
@@ -214,7 +213,7 @@ hr {
     margin: 10px;
 }
 
-/* what we offer main div 2 */
+/* what we offer div 2 */
 
 #table-img {
     height: 400px;
@@ -250,6 +249,7 @@ hr {
     width: 30%;
 
     overflow: hidden;
+
 }
 
 #table-img-1 img {
@@ -261,6 +261,32 @@ hr {
 
 hr {
     margin: 5px;
+}
+
+/* who we are div 3 */
+
+#team-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+margin: 30px;
+    height: 600px;
+    /* width: 100%; */
+    /* background-color: rgb(165, 128, 127, 0.4); */
+}
+
+#team-container div {
+    /* height: 400px; */
+    text-align: center;
+    margin-top: 30px;
+}
+
+#team-img img {
+    /* max-width: 80%;
+    max-height: 80%; */
+    height: 400px;
+    border: solid rgb(165, 128, 127, 0.4) 15px;
+    position: unset;
 }
 
 /* footer */
