@@ -1,6 +1,6 @@
 /* -------------------- fonts -------------------- */
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Dancing Script&display=swap');
 
 * {
     margin: 0;
@@ -27,7 +27,7 @@ h2 {
 }
 
 #logo {
-    font-family: Parisienne, Montserrat,
+    font-family: Dancing Script, Montserrat,
         sans-serif;
     font-weight: 300;
     font-size: 500%;
