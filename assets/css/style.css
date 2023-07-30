@@ -750,7 +750,7 @@ footer {
     .flex {
         display: flex;
         justify-content: center;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .contact {
