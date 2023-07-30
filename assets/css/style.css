@@ -362,38 +362,87 @@ footer {
 
 #intro {
     margin: 30px;
-    padding: 30px;
+    padding-top: 30px;
     text-align: center;
+    color: #803b54;
+    opacity: 0.8;
 }
 
 .flex {
     display: flex;
+    justify-content: center;
 }
 
 /* -------------------- Get in touch - Contact info, address & map -------------------- */
 
 .contact {
-    height: 600px;
-}
-
-.call {
-    width: 50%;
+    height: 400px;
+    width: 40%;
+    text-align: center;
+    margin: 30px;
 }
 
 .map {
-    width: 50%;
-    height: 350px;
+    width: 100%;
+    height: 260px;
+    margin-top: 30px;
 }
 
 .map iframe {
     width: 100%;
     height: 100%;
+    border-radius: 5px;
 }
 
 /* -------------------- Enquire now - form -------------------- */
 
 .form-container {
-    background-color: #9aa68e;
-    width: 50%;
-    height: 600px;
+    width: 30%;
+    height: 400px;
+    margin: 30px;
+}
+
+.form-container h3 {
+    text-align: center;
+}
+
+.form-container form {
+    margin: 10px;
+}
+
+.text-box {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 5px;
+
+    border: 2px solid rgb(165, 128, 127, 0.4);
+    border-radius: 5px;
+    background: transparent;
+    color: rgb(165, 128, 127, 0.4);
+}
+
+.text-box:hover {
+    background-color: rgba(154, 166, 142, 0.4);
+}
+
+.text-box:focus {
+    outline: rgb(165, 128, 127, 0.4);
+}
+
+.send {
+    text-align: center;
+    font-size: 100%;
+    padding: 5px;
+    border: 2px solid rgb(128, 59, 84);
+    border-radius: 5px;
+    background-color: rgb(128, 59, 84);
+    color: white;
+}
+
+.send:hover {
+    background-color: white;
+    border: 2px solid rgba(154, 166, 142);
+    color: rgb(128, 59, 84);
+    font-weight: 600;
+    box-shadow: 2px 2px rgba(154, 166, 142, 0.4);
 }
