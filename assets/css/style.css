@@ -374,7 +374,7 @@ footer {
     justify-content: center;
 }
 
-/* -------------------- Get in touch - Contact info, address & map -------------------- */
+/* -------------------- get in touch - contact info, address & map -------------------- */
 
 .contact {
     height: 400px;
@@ -395,7 +395,7 @@ footer {
     border-radius: 5px;
 }
 
-/* -------------------- Enquire now - form -------------------- */
+/* -------------------- enquire now - form -------------------- */
 
 .form-container {
     width: 30%;
@@ -448,7 +448,7 @@ footer {
     box-shadow: 2px 2px rgba(154, 166, 142, 0.4);
 }
 
-/* -------------------- Quote -------------------- */
+/* -------------------- quote -------------------- */
 
 .intro p {
     text-align: center;
@@ -456,4 +456,131 @@ footer {
     opacity: 0.8;
     text-transform: none;
     font-size: small;
+}
+
+/* -------------------- media queries -------------------- */
+
+/* screen sizes 1100px and smaller */
+
+@media screen and (max-width: 1100px) {
+
+    #logo {
+        font-size: 350%;
+    }
+
+    #site-nav {
+        font-size: 100%;
+    }
+
+    #container {
+        margin: 20px;
+        margin-right: 0px;
+    }
+
+    #hero-text h2 {
+        font-size: 130%;
+    }
+
+    #hero-text {
+        height: 100px;
+        width: 200px;
+        padding-top: 30px;
+    }
+
+    #content-header {
+        font-size: 140%;
+        padding: 0px;
+    }
+
+    #bands-img {
+        margin: 10px;
+        height: 300px;
+    }
+
+    #text-box-1 {
+        font-size: 90%;
+        line-height: normal;
+        height: 280px;
+    }
+
+    #text-box-1 div {
+        width: 45%;
+    }
+
+    #bands-img-1 {
+        height: 400px;
+        width: 60%;
+    }
+
+    #table-img {
+        margin: 10px;
+        height: 300px;
+    }
+
+    #text-box-2 {
+        font-size: 90%;
+        line-height: normal;
+        height: 280px;
+    }
+
+    #text-box-2 div {
+        width: 45%;
+    }
+
+    #table-img-1 {
+        height: 400px;
+        width: 60%;
+    }
+
+    #team-container {
+        margin: 10px;
+        height: 430px;
+        font-size: 90%;
+    }
+
+    #team-container div {
+        margin: 10px;
+    }
+
+    #team-img img {
+        height: 200px;
+    }
+
+    footer {
+        height: 220px;
+        margin-top: 0px;
+    }
+
+    #social {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 90%;
+    }
+
+    #social-links {
+        font-size: 130%;
+    }
+
+    #sec-contain {
+        margin: 5px;
+        height: 100%;
+        margin-bottom: 150px;
+    }
+
+    .contact {
+        margin: 5px;
+        margin-top: 30px;
+        width: 50%;
+    }
+
+    .form-container {
+        margin: 5px;
+        margin-top: 30px;
+        width: 50%;
+    }
+
+    .intro h2 {
+        font-size: larger;
+    }
+
 }
