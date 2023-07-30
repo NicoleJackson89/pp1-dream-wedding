@@ -458,7 +458,7 @@ footer {
     font-size: small;
 }
 
-/* -------------------- media queries -------------------- */
+/* -------------------- media querie -------------------- */
 
 /* screen sizes 1100px and smaller */
 
@@ -580,5 +580,164 @@ footer {
     .intro h2 {
         font-size: larger;
     }
+}
 
+/* screen sizes 800px and smaller */
+
+@media screen and (max-width: 800px) {
+    #logo {
+        font-size: 170%;
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+
+    #site-nav {
+        font-size: 65%;
+        letter-spacing: normal;
+        float: right;
+        margin: 5px 0;
+        width: 100%;
+
+    }
+
+    #container {
+        margin: 10px;
+        display: block;
+    }
+
+    #hero-img {
+        height: 300px;
+        background-size: cover;
+    }
+
+    #hero-text h2 {
+        font-size: 50%;
+        width: 60px;
+    }
+
+    #hero-text {
+        height: 60px;
+        width: 60px;
+        padding-top: 10px;
+    }
+
+    #hero-img-outer {
+        height: 300px;
+    }
+
+    #content-header {
+        font-size: 70%;
+        margin: 10px;
+    }
+
+    #bands-img {
+        height: 380px;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #text-box-1 {
+        font-size: 65%;
+        line-height: normal;
+        height: 200px;
+        width: 100%;
+    }
+
+    #text-box-1 div {
+        width: 45%;
+    }
+
+    #bands-img-1 {
+        height: 200px;
+        width: 80%;
+    }
+
+    #table-img {
+        height: 380px;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #text-box-2 {
+        font-size: 65%;
+        line-height: normal;
+        height: 200px;
+        width: 100%;
+    }
+
+    #text-box-2 div {
+        width: 45%;
+    }
+
+    #table-img-1 {
+        height: 200px;
+        width: 80%;
+    }
+
+    hr {
+        margin: 1px;
+    }
+
+    #team-container {
+        margin: 10px;
+        height: 400px;
+        font-size: 65%;
+    }
+
+    #team-container div {
+        margin: 5px;
+    }
+
+    #social {
+        padding-top: 10px;
+        font-size: 65%;
+    }
+
+    #social-links {
+        font-size: 70%;
+    }
+
+    #grid-contain {
+        margin: 30px 10px;
+        padding-right: 10px;
+    }
+
+    .img-col {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    #sec-contain {
+        margin: 5px;
+        height: 100%;
+    }
+
+    .intro h2 {
+        font-size: 65%;
+        margin-top: 30px;
+        padding-top: 10px;
+    }
+
+    .flex {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .contact {
+        margin: 5px;
+        margin-top: 10px;
+        width: 95%;
+        font-size: 65%;
+    }
+
+    .form-container {
+        margin: 5px;
+        margin-top: 10px;
+        width: 95%;
+        font-size: 65%;
+    }
+    
 }
