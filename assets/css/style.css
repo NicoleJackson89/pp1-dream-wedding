@@ -464,6 +464,8 @@ footer {
 
 @media screen and (max-width: 1100px) {
 
+    /* index.html */
+
     #logo {
         font-size: 350%;
     }
@@ -559,11 +561,25 @@ footer {
         font-size: 130%;
     }
 
+    /* gallery.html */
+
+    .img-col {
+        flex: 45%;
+        max-width: 45%;
+    }
+
+    /* #sec-contain {
+        margin: 5px;
+        height: 100%;
+    } */
+
     #sec-contain {
         margin: 5px;
         height: 100%;
         margin-bottom: 150px;
     }
+
+    /* contact-us.html */
 
     .contact {
         margin: 5px;
@@ -578,26 +594,27 @@ footer {
     }
 
     .intro h2 {
-        font-size: larger;
+        font-size: large;
     }
 }
 
 /* screen sizes 800px and smaller */
 
 @media screen and (max-width: 800px) {
+
+    /* index.html */
+
     #logo {
-        font-size: 170%;
+        font-size: 190%;
         margin-top: 10px;
-        margin-left: 15px;
+        text-align: center;
     }
 
     #site-nav {
-        font-size: 65%;
+        font-size: 75%;
         letter-spacing: normal;
-        float: right;
         margin: 5px 0;
         width: 100%;
-
     }
 
     #container {
@@ -638,7 +655,7 @@ footer {
     }
 
     #text-box-1 {
-        font-size: 65%;
+        font-size: 70%;
         line-height: normal;
         height: 200px;
         width: 100%;
@@ -651,6 +668,8 @@ footer {
     #bands-img-1 {
         height: 200px;
         width: 80%;
+        display: flex;
+        justify-content: center;
     }
 
     #table-img {
@@ -661,7 +680,7 @@ footer {
     }
 
     #text-box-2 {
-        font-size: 65%;
+        font-size: 70%;
         line-height: normal;
         height: 200px;
         width: 100%;
@@ -674,6 +693,8 @@ footer {
     #table-img-1 {
         height: 200px;
         width: 80%;
+        display: flex;
+        justify-content: center;
     }
 
     hr {
@@ -683,21 +704,25 @@ footer {
     #team-container {
         margin: 10px;
         height: 400px;
-        font-size: 65%;
+        font-size: 70%;
     }
 
     #team-container div {
         margin: 5px;
     }
 
+    /* footer */
+
     #social {
         padding-top: 10px;
-        font-size: 65%;
+        font-size: 70%;
     }
 
     #social-links {
-        font-size: 70%;
+        font-size: 75%;
     }
+
+    /* gallery.html */
 
     #grid-contain {
         margin: 30px 10px;
@@ -709,13 +734,15 @@ footer {
         max-width: 100%;
     }
 
+    /* contact-us.html */
+
     #sec-contain {
         margin: 5px;
         height: 100%;
     }
 
     .intro h2 {
-        font-size: 65%;
+        font-size: 70%;
         margin-top: 30px;
         padding-top: 10px;
     }
@@ -730,14 +757,14 @@ footer {
         margin: 5px;
         margin-top: 10px;
         width: 95%;
-        font-size: 65%;
+        font-size: 70%;
     }
 
     .form-container {
         margin: 5px;
         margin-top: 10px;
         width: 95%;
-        font-size: 65%;
+        font-size: 70%;
     }
-    
+
 }
