@@ -85,7 +85,7 @@
                     Enquire below
                 </h3>
                 <hr>
-                <form action="enquire-form" method="post" action="">
+                <form action="enquire-form" method="post" action="get">
                     <label for="fname">First Name *</label>
                     <input type="text" name="first_name" id="fname" class="text-box" required>
 
@@ -96,13 +96,14 @@
                     <input type="email" name="email_address" id="email" class="text-box" required>
 
                     <label for="contact">Contact Number</label>
-                    <input type="number" name="contact_number" id="contact" class="text-box">
+                    <input type="tel" name="contact_number" id="contact" class="text-box">
 
                     <label for="date">Wedding Date *</label>
                     <input type="date" name="wedding_date" id="date" class="text-box" required>
 
                     <label for="message">Message</label>
-                    <textarea name="more_info" id="message" cols="30" rows="10" class="text-box">Any additional info you can provide</textarea>
+                    <textarea name="more_info" id="message" cols="30" rows="10"
+                        class="text-box">Any additional info you can provide</textarea>
 
                     <input type="submit" value="Send" class="send">
                 </form>
@@ -123,22 +124,25 @@
         <div>
             <ul id="social-links">
                 <li>
-                    <a href="https://www.facebook.com/" target="_blank" rel="noopener">
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                        aria-label="Visit our Facebook page">
                         <i class="fa-brands fa-facebook-f"></i>
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.pinterest.co.uk/" target="_blank" rel="noopener">
+                    <a href="https://www.pinterest.co.uk/" target="_blank" rel="noopener"
+                        aria-label="Visit our Pinterest page">
                         <i class="fa-brands fa-pinterest-p"></i>
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.instagram.com/" target="_blank" rel="noopener">
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                        aria-label="Visit our Instagram page">
                         <i class="fa-brands fa-instagram"></i>
                     </a>
                 </li>
                 <li>
-                    <a href="https://twitter.com/" target="_blank" rel="noopener">
+                    <a href="https://twitter.com/" target="_blank" rel="noopener" aria-label="Visit our Twitter page">
                         <i class="fa-brands fa-twitter"></i>
                     </a>
                 </li>
