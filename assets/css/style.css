@@ -360,12 +360,13 @@ footer {
     margin: 30px;
 }
 
-#intro {
+.intro h2 {
     margin: 30px;
     padding-top: 30px;
     text-align: center;
     color: #803b54;
     opacity: 0.8;
+    text-transform: none;
 }
 
 .flex {
@@ -445,4 +446,14 @@ footer {
     color: rgb(128, 59, 84);
     font-weight: 600;
     box-shadow: 2px 2px rgba(154, 166, 142, 0.4);
+}
+
+/* -------------------- Quote -------------------- */
+
+.intro p {
+    text-align: center;
+    color: #803b54;
+    opacity: 0.8;
+    text-transform: none;
+    font-size: small;
 }
