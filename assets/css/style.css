@@ -493,7 +493,6 @@ footer {
     }
 
     #bands-img {
-        margin: 10px;
         height: 300px;
     }
 
@@ -513,7 +512,6 @@ footer {
     }
 
     #table-img {
-        margin: 10px;
         height: 300px;
     }
 
@@ -547,7 +545,7 @@ footer {
     }
 
     footer {
-        height: 220px;
+        height: 120px;
         margin-top: 0px;
     }
 
