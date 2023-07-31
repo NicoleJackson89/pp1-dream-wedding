@@ -792,4 +792,60 @@ footer {
         font-size: 70%;
     }
 
+    /* screen sizes 350px and smaller */
+
+@media screen and (max-width: 350px) {
+
+    /* index.html */
+
+    #site-nav {
+        font-size: 70%;
+    }
+
+    #hero-img {
+        height: 350px;
+        background-size: cover;
+    }
+
+    #hero-text h2 {
+        font-size: 45%;
+        width: 55px;
+    }
+
+    #hero-text {
+        height: 55px;
+        width: 55px;
+        padding-top: 15px;
+    }
+
+    #hero-img-outer {
+        height: 350px;
+    }
+
+    #bands-img {
+        height: 350px;
+    }
+
+    #text-box-1 {
+        font-size: 65%;
+    }
+
+    #table-img {
+        height: 350px;
+    }
+
+    #text-box-2 {
+        font-size: 65%;
+    }
+
+    hr {
+        margin: 1px;
+    }
+
+    #team-container {
+        margin: 10px;
+        height: 380px;
+        font-size: 65%;
+    }
+
 }
