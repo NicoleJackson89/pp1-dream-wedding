@@ -32,12 +32,13 @@ h2 {
     font-size: 500%;
     letter-spacing: normal;
     margin-left: 20px;
+    width: 80%;
 
     /* animation for zoom effect on logo */
 
     animation-name: logo-zoom;
     animation-duration: 3s;
-    animation-fill-mode: both;
+    animation-fill-mode: forwards;
 }
 
 /* level of zoom created: code sourced and edited to my preference from the love running project */
@@ -597,6 +598,10 @@ footer {
 
 @media screen and (max-width: 800px) {
 
+    body {
+        overflow: hidden;
+    }
+
     /* index.html */
 
     #logo {
@@ -704,6 +709,10 @@ footer {
 
     #team-container div {
         margin: 5px;
+    }
+
+    #team-img img {
+        border: solid rgb(165, 128, 127, 0.4) 5px;
     }
 
     /* footer */
