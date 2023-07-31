@@ -1,11 +1,13 @@
 /* -------------------- fonts -------------------- */
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Dancing Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Dancing+Script&display=swap');
+
 
 * {
     margin: 0;
     padding: 0;
     border: none;
+    outline: 1px solid red;
 }
 
 body {
@@ -32,7 +34,6 @@ h2 {
     font-size: 500%;
     letter-spacing: normal;
     margin-left: 20px;
-    width: 80%;
 
     /* animation for zoom effect on logo */
 
@@ -45,11 +46,11 @@ h2 {
 
 @keyframes logo-zoom {
     from {
-        transform: scale(0.9);
+        transform: scale(0.8);
     }
 
     to {
-        transform: scale(1.1);
+        transform: scale(1.0);
     }
 }
 
@@ -335,7 +336,7 @@ footer {
 /* -------------------- images - gallery -------------------- */
 
 #grid-contain {
-    margin: 30px 5px;
+    margin: 0px 5px;
 
     display: flex;
     flex-wrap: wrap;
@@ -363,7 +364,7 @@ footer {
 
 .intro h2 {
     margin: 30px;
-    padding-top: 30px;
+    /* padding-top: 30px; */
     text-align: center;
     color: #803b54;
     opacity: 0.8;
@@ -400,7 +401,7 @@ footer {
 
 .form-container {
     width: 30%;
-    height: 400px;
+    /* height: 400px; */
     margin: 30px;
 }
 
@@ -469,15 +470,21 @@ footer {
 
     #logo {
         font-size: 350%;
+        margin-left: 0px;
     }
 
     #site-nav {
         font-size: 100%;
     }
 
+    #site-nav li {
+        margin-right: 0px;
+        margin-left: 20px;
+    }
+
     #container {
         margin: 20px;
-        margin-right: 0px;
+        width: 95%;
     }
 
     #hero-text h2 {
@@ -570,7 +577,7 @@ footer {
     }
 
     #sec-contain {
-        margin: 5px;
+        margin: 0px 5px;
         height: 100%;
         margin-bottom: 150px;
     }
@@ -586,28 +593,32 @@ footer {
     .form-container {
         margin: 5px;
         margin-top: 30px;
+        margin-bottom: 30px;
         width: 50%;
     }
 
     .intro h2 {
         font-size: large;
+        margin: 0px 20px 20px;
+        padding-top: 10px;
     }
+
+    .intro p {
+        margin-bottom: 40px;
+    }
+
 }
 
 /* screen sizes 800px and smaller */
 
 @media screen and (max-width: 800px) {
 
-    body {
-        overflow: hidden;
-    }
-
     /* index.html */
 
     #logo {
         font-size: 190%;
         margin-top: 10px;
-        text-align: center;
+        margin-left: 0px;
     }
 
     #site-nav {
@@ -615,6 +626,12 @@ footer {
         letter-spacing: normal;
         margin: 5px 0;
         width: 100%;
+        justify-content: flex-end;
+    }
+
+    #site-nav li {
+        margin-right: 0px;
+        margin-left: 20px;
     }
 
     #container {
@@ -729,7 +746,7 @@ footer {
     /* gallery.html */
 
     #grid-contain {
-        margin: 30px 10px;
+        margin: 0px 10px;
         padding-right: 10px;
     }
 
@@ -747,8 +764,12 @@ footer {
 
     .intro h2 {
         font-size: 70%;
-        margin-top: 30px;
+        margin: 0px 10px 10px;
         padding-top: 10px;
+    }
+
+    .intro p {
+        margin-bottom: 60px;
     }
 
     .flex {
