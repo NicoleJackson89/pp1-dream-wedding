@@ -459,7 +459,7 @@ footer {
     font-size: small;
 }
 
-/* -------------------- media querie -------------------- */
+/* -------------------- media queries -------------------- */
 
 /* screen sizes 1100px and smaller */
 
@@ -614,22 +614,15 @@ footer {
     /* index.html */
 
     #logo {
-        font-size: 280%;
+        font-size: 320%;
         margin-top: 10px;
-        margin-left: 0px;
+        padding-bottom: 10px;
     }
 
     #site-nav {
-        font-size: 90%;
+        font-size: 95%;
         letter-spacing: normal;
-        margin: 5px 0;
-        width: 100%;
         justify-content: flex-end;
-    }
-
-    #site-nav li {
-        margin-right: 0px;
-        margin-left: 20px;
     }
 
     #container {
@@ -643,13 +636,13 @@ footer {
     }
 
     #hero-text h2 {
-        font-size: 60%;
+        font-size: 65%;
         width: 65px;
     }
 
     #hero-text {
-        height: 65px;
-        width: 65px;
+        height: 75px;
+        width: 75px;
         padding-top: 10px;
     }
 
@@ -658,7 +651,7 @@ footer {
     }
 
     #content-header {
-        font-size: 85%;
+        font-size: 95%;
         margin: 10px;
     }
 
@@ -670,14 +663,9 @@ footer {
     }
 
     #text-box-1 {
-        font-size: 75%;
-        line-height: normal;
+        font-size: 85%;
         height: 200px;
         width: 100%;
-    }
-
-    #text-box-1 div {
-        width: 45%;
     }
 
     #bands-img-1 {
@@ -695,14 +683,9 @@ footer {
     }
 
     #text-box-2 {
-        font-size: 75%;
-        line-height: normal;
+        font-size: 85%;
         height: 200px;
         width: 100%;
-    }
-
-    #text-box-2 div {
-        width: 45%;
     }
 
     #table-img-1 {
@@ -717,9 +700,8 @@ footer {
     }
 
     #team-container {
-        margin: 10px;
         height: 400px;
-        font-size: 75%;
+        font-size: 85%;
     }
 
     #team-container div {
@@ -733,12 +715,11 @@ footer {
     /* footer */
 
     #social {
-        padding-top: 10px;
-        font-size: 75%;
+        font-size: 85%;
     }
 
     #social-links {
-        font-size: 75%;
+        font-size: 90%;
     }
 
     /* gallery.html */
@@ -757,13 +738,11 @@ footer {
 
     #sec-contain {
         margin: 5px;
-        height: 100%;
     }
 
     .intro h2 {
-        font-size: 75%;
+        font-size: 85%;
         margin: 0px 10px 10px;
-        padding-top: 10px;
     }
 
     .intro p {
@@ -780,14 +759,14 @@ footer {
         margin: 5px;
         margin-top: 10px;
         width: 95%;
-        font-size: 75%;
+        font-size: 85%;
     }
 
     .form-container {
         margin: 5px;
         margin-top: 10px;
         width: 95%;
-        font-size: 75%;
+        font-size: 85%;
     }
 }
 
