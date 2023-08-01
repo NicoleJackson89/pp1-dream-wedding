@@ -770,6 +770,20 @@ footer {
     }
 }
 
+/* screen sizes 490px and smaller */
+
+@media screen and (max-width: 490px) {
+
+    #text-box-1 {
+        height: 300px;
+    }
+
+    #text-box-2 {
+        height: 300px;
+    }
+
+}
+
 /* screen sizes 390px and smaller */
 
 @media screen and (max-width: 390px) {
