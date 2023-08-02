@@ -718,7 +718,7 @@ footer {
     }
 
     #social-links {
-        font-size: 90%;
+        font-size: 130%;
     }
 
     /* gallery.html */
@@ -808,6 +808,17 @@ footer {
     #bands-img {
         height: 350px;
     }
+
+    #social {
+        font-size: 85%;
+        padding-top: 25px;
+    }
+
+    #social-links {
+        font-size: 120%;
+    }
+
+
 }
 
 /* screen sizes 390px and smaller */
@@ -892,4 +903,5 @@ footer {
     #team-img img {
         height: 180px;
     }
+
 }
