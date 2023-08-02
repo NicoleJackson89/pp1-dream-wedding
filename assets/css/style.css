@@ -310,7 +310,6 @@ footer {
     list-style-type: none;
     font-size: 180%;
     color: white;
-    padding-bottom: 30px;
 }
 
 #social-links li {
@@ -559,8 +558,8 @@ footer {
     }
 
     #social {
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 20px;
+        padding-bottom: 15px;
         font-size: 90%;
     }
 
@@ -776,6 +775,7 @@ footer {
 
     #text-box-1 {
         flex-direction: column;
+        height: auto;
     }
 
     #text-box-1 div {
@@ -789,7 +789,7 @@ footer {
 
     #text-box-2 {
         flex-direction: column;
-    
+        height: auto;
     }
 
     #text-box-2 div {
