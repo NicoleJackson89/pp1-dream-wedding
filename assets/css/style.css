@@ -115,7 +115,7 @@ header a {
 #hero-img {
     height: 850px;
     width: 100%;
-    background: url(../images/Decorated-table-setting.jpg) no-repeat center center;
+    background: url(../images/decorated-table-setting.jpg) no-repeat center center;
 }
 
 /* -------------------- hero image cover text -------------------- */
@@ -362,7 +362,6 @@ footer {
 
 .intro h2 {
     margin: 30px;
-    /* padding-top: 30px; */
     text-align: center;
     color: #803b54;
     opacity: 0.8;
@@ -399,7 +398,6 @@ footer {
 
 .form-container {
     width: 30%;
-    /* height: 400px; */
     margin: 30px;
 }
 
@@ -817,8 +815,6 @@ footer {
     #social-links {
         font-size: 120%;
     }
-
-
 }
 
 /* screen sizes 390px and smaller */
@@ -903,5 +899,4 @@ footer {
     #team-img img {
         height: 180px;
     }
-
 }
