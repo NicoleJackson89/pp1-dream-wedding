@@ -775,13 +775,39 @@ footer {
 @media screen and (max-width: 490px) {
 
     #text-box-1 {
-        height: 300px;
+        flex-direction: column;
+    }
+
+    #text-box-1 div {
+        width: 95%;
+        padding: 2px;
+    }
+
+    #text-box-1 p {
+        padding: 2px;
     }
 
     #text-box-2 {
-        height: 300px;
+        flex-direction: column;
+    
     }
 
+    #text-box-2 div {
+        width: 95%;
+        padding: 2px;
+    }
+
+    #text-box-2 p {
+        padding: 2px;
+    }
+
+    #table-img {
+        height: 350px;
+    }
+
+    #bands-img {
+        height: 350px;
+    }
 }
 
 /* screen sizes 390px and smaller */
