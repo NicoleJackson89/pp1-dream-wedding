@@ -27,8 +27,7 @@ h2 {
 }
 
 #logo {
-    font-family: Dancing Script, Montserrat,
-        sans-serif;
+    font-family: Dancing Script, Montserrat, sans-serif;
     font-weight: 300;
     font-size: 500%;
     letter-spacing: normal;
@@ -362,7 +361,6 @@ footer {
 }
 
 .intro h2 {
-    margin: 30px;
     text-align: center;
     color: #803b54;
     opacity: 0.8;
