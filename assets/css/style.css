@@ -489,13 +489,13 @@ footer {
     letter-spacing: 0.5px;
 }
 
-.pop-up > p {
+.pop-up>p {
     color: white;
     font-weight: 400;
     margin-bottom: 10px;
 }
 
-.pop-up > h3 {
+.pop-up>h3 {
     color: white;
     font-weight: 400;
     margin-bottom: 10px;
@@ -828,6 +828,10 @@ footer {
         margin-top: 10px;
         width: 95%;
         font-size: 85%;
+    }
+
+    .pop-up {
+        margin-bottom: 300px;
     }
 }
 
