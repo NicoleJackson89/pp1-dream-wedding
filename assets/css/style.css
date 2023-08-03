@@ -113,7 +113,7 @@ header a {
 }
 
 #hero-img {
-    height: 850px;
+    height: 700px;
     width: 100%;
     background: url(../images/decorated-table-setting.jpg) no-repeat center center;
 }
@@ -628,18 +628,18 @@ footer {
     }
 
     #hero-img {
-        height: 300px;
+        height: 400px;
         background-size: cover;
     }
 
     #hero-text h2 {
-        font-size: 65%;
-        width: 65px;
+        font-size: 80%;
+        width: 85px;
     }
 
     #hero-text {
-        height: 75px;
-        width: 75px;
+        height: 85px;
+        width: 85px;
         padding-top: 10px;
     }
 
