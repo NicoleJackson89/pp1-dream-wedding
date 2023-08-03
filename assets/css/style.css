@@ -499,6 +499,13 @@ footer {
 
 .pop-up i {
     color: white;
+    transition: all 0.2s ease-in-out;
+    font-size: 130%;
+    padding: 5px;
+}
+
+.pop-up i:hover {
+    transform: scale(1.3);
 }
 
 .thank-you {
