@@ -16,7 +16,7 @@ body {
     color: #272727;
 }
 
-/* -------------------- header - headings and logo -------------------- */
+/* -------------------- logo -------------------- */
 
 h1,
 h2 {
@@ -40,7 +40,7 @@ h2 {
     animation-fill-mode: forwards;
 }
 
-/* level of zoom created: code sourced and edited to my preference from the love running project */
+/* level of zoom created */
 
 @keyframes logo-zoom {
     from {
@@ -56,8 +56,6 @@ header a {
     text-decoration: none;
 }
 
-/* link to source of this code: https: //stackoverflow.com/questions/69545183/putting-the-nav-bar-and-header-on-one-line  */
-
 #container {
     display: flex;
     justify-content: space-between;
@@ -65,7 +63,7 @@ header a {
     margin: 30px;
 }
 
-/* -------------------- header - navigation links -------------------- */
+/* -------------------- navigation -------------------- */
 
 #site-nav {
     font-size: 130%;
@@ -93,7 +91,7 @@ header a {
     border-bottom: 1px solid #9aa68e;
 }
 
-/* -------------------- hero image and outer -------------------- */
+/* -------------------- hero image -------------------- */
 
 #hero-img-outer {
     height: 700px;
@@ -147,7 +145,7 @@ header a {
     text-align: center;
 }
 
-/* -------------------- page content -------------------- */
+/* -------------------- what we offer page content -------------------- */
 
 #content-header {
     font-family: 'Montserrat', sans-serif;
@@ -158,7 +156,7 @@ header a {
     padding: 30px;
 }
 
-/* -------------------- what we offer div 1 -------------------- */
+/* div 1 */
 
 #bands-img {
     height: 400px;
@@ -209,7 +207,7 @@ hr {
     margin: 10px;
 }
 
-/* -------------------- what we offer div 2 -------------------- */
+/* div 2 */
 
 #table-img {
     height: 400px;
@@ -258,7 +256,7 @@ hr {
     margin: 5px;
 }
 
-/* -------------------- who we are div 3 -------------------- */
+/* div 3 */
 
 #team-container {
     display: flex;
@@ -372,7 +370,7 @@ footer {
     justify-content: center;
 }
 
-/* -------------------- get in touch - contact info, address & map -------------------- */
+/* -------------------- get in touch -------------------- */
 
 .contact {
     height: 400px;
@@ -393,7 +391,7 @@ footer {
     border-radius: 5px;
 }
 
-/* -------------------- enquire now - form -------------------- */
+/* -------------------- enquire now -------------------- */
 
 .form-container {
     width: 30%;
@@ -482,7 +480,6 @@ footer {
     padding: 15px;
     margin: 20px;
     margin-bottom: 200px;
-
     letter-spacing: 0.5px;
 }
 
@@ -628,8 +625,8 @@ footer {
     /* gallery.html */
 
     .img-col {
-        flex: 45%;
-        max-width: 45%;
+        flex: 30%;
+        max-width: 30%;
     }
 
     #sec-contain {
@@ -788,8 +785,8 @@ footer {
     }
 
     .img-col {
-        flex: 100%;
-        max-width: 100%;
+        flex: 45%;
+        max-width: 45%;
     }
 
     /* contact-us.html */
@@ -879,6 +876,11 @@ footer {
 
     #social-links {
         font-size: 120%;
+    }
+
+    .img-col {
+        flex: 100%;
+        max-width: 100%;
     }
 }
 
