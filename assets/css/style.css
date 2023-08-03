@@ -457,6 +457,60 @@ footer {
     font-size: small;
 }
 
+/* -------------------- thank-you -------------------- */
+
+.submit-contain {
+    height: 800px;
+    width: 100%;
+    display: flex;
+}
+
+#submit-img {
+    height: 100%;
+    width: 100%;
+    background: url(../images/beside-flowers.jpg) no-repeat center center;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pop-up {
+    max-width: 300px;
+    height: auto;
+    text-align: center;
+    background-color: rgba(128, 59, 84, 0.9);
+    border-radius: 8px;
+    padding: 15px;
+    margin: 20px;
+    margin-bottom: 200px;
+
+    letter-spacing: 0.5px;
+}
+
+.pop-up > p {
+    color: white;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.pop-up > h3 {
+    color: white;
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-size: 260%;
+    font-family: Dancing Script;
+}
+
+.pop-up i {
+    color: white;
+}
+
+.thank-you {
+    margin-top: 0px;
+}
+
 /* -------------------- media queries -------------------- */
 
 /* screen sizes 1100px and smaller */
