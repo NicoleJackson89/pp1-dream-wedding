@@ -10,11 +10,13 @@ The site is directly targered to engaged couples who require assistance with thi
 
 ## User Experience 
 
-The target market of this webpage would be all couples who are looking for guidance / assisstance with planning their wedding.
+The target market of this webpage would be all couples who are looking for guidance / assisstance with planning their wedding. Couples looking for full-service / partial wedding planning service.
 
 Users will be looking for clear, easy to read information about what we as a company can offer to their stressfree wedding planning process. A photo gallery is provided as users will see this as a reference for the type of service we offer to our clients and previous work we have done. Pictures speak a million words in a website like this.
  
- The webpage is easy to navigate, has a soft color pallette with no over whelming amounts of content to read through. At first glance the websage offers animation of the logo as well as a beautiful image of a table setting at a wedding we planned.
+ The webpage consists of three pages to seperate the different aspects of the website, with a easy to navigate nav bar at the top of each page, has a soft color pallette with no over whelming amounts of content to read through. At first glance the websage offers animation of the logo as well as a beautiful image of a table setting at a wedding we planned.
+
+ A simple enquire form was added for users to add thier details if they wished to be contacted. The business contact details were also included as well as the location if users decided to visit the store.
 
 ### Color Palette
 
@@ -27,6 +29,12 @@ The color plalette used for the web page was considered, the look and feel I wan
 After running the website through a color contrast validator I was pleased to see the chosen colors work well together.
 
 ![Color contrast](./assets/readme/color-contrast.png)
+
+### Fonts
+
+I made use of two fonts whihh I felt came together very well, 'Montserrat' and 'Dancing Script'. 'Montserrat' was used throughout most of the webpage as I felt it had a professional but readable look to it. 'Dancing Script' was used as the logo for the page as aell as in the thank you section for an elegant touch.
+
+## Features
 
 ### Existing Features
 
@@ -172,9 +180,9 @@ I used the Lighthouse Google Chrome dev tools feature to test the wedsite in mob
 
 ## Deployment
 
-### GitHub deployment
+### [GitHub](https://github.com/) deployment
 
-As this code is stored in [GitHub](https://github.com/), I deployed this webpage as folows:
+As this code is stored in GitHub, I deployed this webpage as folows:
 
 1. Login to GitHub
 2. Click the repository you wish to deploy (Top left corner)
@@ -240,6 +248,27 @@ Forking a GitHub repository will allow you to make a copy of the repository, cha
 
 ## Credits
 
-### Media
+- Images throughout the webpage where downloaded from:
+  - [Vecteezy](https://www.vecteezy.com/)
+  - [Freepik](https://www.freepik.com/)
+- Social media icons grow effect inspiration and code sourced but edited:
+  - [Button grow animation](https://www.30secondsofcode.org/css/s/button-hover-grow-animation/)
+- Zoom animation on the Logo and social media links, code was sourced but edited to my preference:
+  - [Love Running Project](https://github.com/NicoleJackson89/love-running/commit/bae12e6015b74cc17557fb41267afe5ea4d76749)
+- Code was used for guidance on the NavBar and Logo:
+  - [Putting the nav bar and header on one line](https://stackoverflow.com/questions/69545183/putting-the-nav-bar-and-header-on-one-line)
+- These links were guidance to using Display Flex in my webpage:
+  - [Flexbox design patterns you can use in your projects](https://www.youtube.com/watch?v=vQAvjof1oe4&t=230s)
+  - [Flexbox CSS In 20 Minutes](https://www.youtube.com/watch?v=JJSoEo8JSnc&t=12s)
+- I used the below code to create the border radius for the text on the hero image:
+  - [Fancy Border Radius Generator](https://9elements.github.io/fancy-border-radius/)
+- This code was used for the gallery layout and media queries with some changes to suite my preference:
+  - [W3 Schools](https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp)
+- The content of the webpage with regards to what wedding planners do was found on:
+  - [CareerExplorer](https://www.careerexplorer.com/careers/wedding-planner/#what-does-a-wedding-planner-do)
+- The inspiration of my color palette was found on:
+  - [Silvia Bettini Wedding](https://silviabettiniwedding.it/en/wedding-planner-italy/wedding-color-palette-how-to-color-your-wedding-without-any-smudges/)
 
-### Content
+## Acknowledgements
+
+A special thank you to my mentor Mitko Bachvarov for all of his guidance, advice and support as well as my husband and fellow student Iain Jackson for his advice, motivation and troubleshooting assistance throughout the process of this project.
