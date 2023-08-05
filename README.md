@@ -116,10 +116,17 @@ This website was designed on desktop view first as I thought this would be the m
 
 ### HTML Validator
 
+- All of the HTML pages were passed through the official W3C HTML validatorn no errors were found.
+- A warning has come up for the Gallery HTML page, a section was used without a heading. This was fixed by replacing the section element with a div element.
+- Other warnings have come up due to the usage of two or more consectutive hyphens used in comments, I made a concise desicion to leave these as they help with code location on the pages.
+
+![HTML Validator](./assets/readme/html-validator.png)
+
 ### CSS Validator
 
 - No errors were found when validating my CSS code through the official W3C CSS validator.
 - A warning has come back for my Google fonts import, I made a concise decision to leave this as it does not affect the overall website. The warning is a notification that the validator will not validate my imported Google font.
+- Other warnings have come up due to the usage of two or more consectutive hyphens used in comments, I made a concise desicion to leave these as they help with code location on the pages.
 
 ![CSS Validator](./assets/readme/css-validator.png)
 
