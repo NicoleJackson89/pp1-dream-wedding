@@ -4,23 +4,23 @@
 
 As a service provider, Dream weddings was created to showcase what we as wedding planners can do for couples who plan to get married in the near future.
 
-The site is directly targered to engaged couples who require assistance with thier overall wedding planning needs. A gallery was added to provide a visual guide for the types of possible wedding themes and previous weddings created by us.
+The site is directly targets engaged couples who require assistance with their overall wedding planning needs. A gallery was added to provide a visual guide for the types of possible wedding themes and previous weddings created by us.
 
 ![Responsive](./assets/readme/am-i-responsive.png)
 
-## User Experience 
+## User Experience
 
-The target market of this webpage would be all couples who are looking for guidance / assisstance with planning their wedding. Couples looking for full-service / partial wedding planning service.
+The target market of this webpage would be all couples who are looking for guidance / assistance with planning their wedding. Couples looking for full-service / partial wedding planning service.
 
-Users will be looking for clear, easy to read information about what we as a company can offer to their stressfree wedding planning process. A photo gallery is provided as users will see this as a reference for the type of service we offer to our clients and previous work we have done. Pictures speak a million words in a website like this.
- 
- The webpage consists of three pages to seperate the different aspects of the website, with a easy to navigate nav bar at the top of each page, has a soft color pallette with no over whelming amounts of content to read through. At first glance the websage offers animation of the logo as well as a beautiful image of a table setting at a wedding we planned.
+Users will be looking for clear, easy to read information about what we as a company can offer to their stress free wedding planning process. A photo gallery is provided as users will see this as a reference for the type of service we offer to our clients and previous work we have done. Pictures speak a million words on a website like this.
 
- A simple enquire form was added for users to add thier details if they wished to be contacted. The business contact details were also included as well as the location if users decided to visit the store.
+The webpage consists of three pages to separate the different aspects of the website, with an easy to navigate nav bar at the top of each page, and has a soft color palette with no overwhelming amounts of content to read through. At first glance the webpage offers animation on the logo as well as a beautiful image of a table setting at a wedding we planned.
+
+A simple enquiry form was added for users to add their details if they wished to be contacted. The business contact details are also included as well as the location if users decided to visit the store.
 
 ### Color Palette
 
-The color plalette used for the web page was considered, the look and feel I wanted for the website was soft but ellegant. I achieved this buy making use of both Hex and RGBA colors throughout the web page with a simple white background.
+The color palette used for the web page was considered, the look and feel I wanted for the website was soft but elegant. I achieved this buy making use of both Hex and RGBA colors throughout the webpage with a simple white background.
 
 ![Color palette](./assets/readme/colors.png)
 
@@ -32,7 +32,7 @@ After running the website through a color contrast validator I was pleased to se
 
 ### Fonts
 
-I made use of two fonts whihh I felt came together very well, 'Montserrat' and 'Dancing Script'. 'Montserrat' was used throughout most of the webpage as I felt it had a professional but readable look to it. 'Dancing Script' was used as the logo for the page as aell as in the thank you section for an elegant touch.
+I made use of two fonts which I felt came together very well, 'Montserrat' and 'Dancing Script'. 'Montserrat' was used throughout most of the webpage as I felt it had a professional but readable look to it. 'Dancing Script' was used as the logo for the page as well as in the thank you section for an elegant touch.
 
 ## Features
 
@@ -42,36 +42,36 @@ This website was designed on desktop view first as I thought this would be the m
 
 - Logo and Navigation Bar
 
-  - Both the Logo and Nav Bar were styled inline for a easy flow to the page.
+  - Both the Logo and Nav Bar were styled inline for an easy flow to the page.
 
 ![Full nav bar](./assets/readme/full-nav.png)
 
 - Logo
 
-  - The logo is fully responsive. No matter which page your are on in the website, by clikcing on the logo you will be redirected back to the Home page.
-  - Animation was added to the logo with a zoom-in effect as an eye catching experience for users.
+  - The logo is fully responsive. No matter which page you are on in the website, by clicking on the logo you will be redirected back to the Home page.
+  - Animation was added to the logo with a zoom effect as an eye catching experience for users.
 
 ![Logo](./assets/readme/logo.png)
 
 - Navigation Bar
-  
+
   - The nav bar is featured on all three pages of the website with links to the Home, Gallery and Contact Us pages.
   - Users will easily navigate to these pages using any device without having to make use of the back button on the browser.
-  - The links on the nav bar have been styled with underline and higher opacity, this will allow users to know which page they are currently in.
+  - The links on the nav bar have been styled with underline and higher opacity on hover, the underline will allow users to know which page they are currently in.
 
 ![Nav bar](./assets/readme/nav-bar.png)
 
 - Landing page image
 
-  - The landing page image is of a wedding reception table decorated by Wedding Planners, show casing to the user some of the beautiful work we do.
-  - An intoduction of how we can create a users dream wedding if they make use of our services is also included in the bottom corner of this image.
+  - The landing page image is of a wedding reception table decorated by Wedding Planners, showcasing to the user some of the beautiful work we do.
+  - An introduction of how we can create a user's dream wedding if they make use of our services is also included in the bottom corner of this image.
 
 ![Landing page image](./assets/readme/landing-page-img.png)
 
 - What we offer Section
 
-  - In this section the user can read about what we offer as a service provider. The user will see that our goal is to understand thier vision, preferences and budget for thier wedding and that we work around them.
-  - Two images have been used on either side of the content for a softer more appealing view.
+  - In this section the user can read about what we offer as a service provider. The user will see that our goal is to understand their vision, preferences and budget for their wedding and that we work around them.
+  - Two images have been used on either side of the content for a softer, more appealing look.
   - On smaller screen sizes the images will display below each content box for ease of reading.
   - This short but descriptive section should leave the user feeling encouraged to contact us
 
@@ -80,14 +80,14 @@ This website was designed on desktop view first as I thought this would be the m
 - Who we are section
 
   - In this section we introduce ourselves by making use of an image of our team.
-  - The user will see we have over 10 years of expereance in the field, this will leave the user feeling content with leaving the hard work of planning thier wedding in our hands.
+  - The user will see we have over 10 years of experience in the field, this will leave the user feeling content with leaving the hard work of planning their wedding in our hands.
   - A casual, well thought photograph was used for a playful, hands-on work space feel.
 
 ![Who we are](./assets/readme/who-we-are.png)
 
 - Footer
 
-  - The footer has links to our social media pages, these will open up in a new tab tor ease of navigation for users.
+  - The footer has links to our social media pages, these will open up in a new tab for ease of navigation for users.
   - Company contact details have been added to the footer as I have taken into consideration that some users may want to get straight into contacting us rather than search for the details in another page.
   - The social media links have added animation that will increase in size when the user hovers over either of them.
 
@@ -98,16 +98,16 @@ This website was designed on desktop view first as I thought this would be the m
   - The gallery has been added to provide users with supporting images of our work.
   - The border radius was intentional to create a softer, welcoming look to the images.
   - Images in the gallery would be of value to users as they would be a deciding factor of whether or not to contact us to provide a service to them.
-  - I have taken smaller screens into consideration, the gallery become smaller with the number of columns when screen sizes decrease.
+  - I have taken smaller screens into consideration, the gallery becomes smaller with a lower number of columns when screen size decreases.
 
 ![Gallery](./assets/readme/gallery.png)
 
 - Contact Us page
 
-  - The contact us page includes a heading letting users know turn around time once teh form has been submitted. A short quote has been added to the bottom of the section.
+  - The contact us page includes a heading letting users know turn around time once the form has been submitted. A short quote has been added to the bottom of the section.
   - Our contact details and address using a Google maps link has been added as a feature for users to easily locate us.
   - The enquiry form is for users who wish to be contacted back, they will be required to enter their names, email address and wedding date with the option to enter other details.
-  - Features added to the form will be on the 'send' button where this has been highlighted in a different color when hovered over.
+  - Other features added to the form will be on the 'send' button where this has been highlighted in a different color when hovered over.
 
 ![Contact us](./assets/readme/contact-us.png)
 
@@ -121,18 +121,18 @@ This website was designed on desktop view first as I thought this would be the m
 ### Future Features
 
 - Taking into consideration that clients from different locations in the country / world may want to make use of our services, we may add virtual assistance with a bookings and payment page. These will also have links to a skype, Google meets or Teams meetings with clients.
-- A review section where past clients can add there experience with us for possible future clients to see.
+- A review section where past clients can add their experience with us for possible future clients to see.
 - A video gallery can be added for users to enjoy a 3D view of our work.
 
 ## Testing
 
-- HTML and CSS code was tested throught the building process of this web page using the W3C validator to fix any errors or warnings. This was to ensure a smoother final testing period at the end of the building process.
+- HTML and CSS code was tested through the building process of this web page using the W3C validator to fix any errors or warnings. This was to ensure a smoother final testing period at the end of the building process.
 
 ### HTML Validator
 
 - All of the HTML pages were passed through the official [W3C HTML validator](https://validator.w3.org/) no errors were found.
 - A warning has come up for the Gallery HTML page, a section was used without a heading. This was fixed by replacing the section element with a div element.
-- Other warnings have come up due to the usage of two or more consectutive hyphens used in comments, I made a concise desicion to leave these as they help with code location on the pages.
+- Other warnings have come up due to the usage of two or more consecutive hyphens used in comments, I made a conscious decision to leave these as they help with code location on the pages.
 
 ![HTML Validator](./assets/readme/html-validator.png)
 
@@ -140,23 +140,23 @@ This website was designed on desktop view first as I thought this would be the m
 
 - No errors were found when validating my CSS code through the official [W3C CSS validator](https://jigsaw.w3.org/css-validator/).
 - A warning has come back for my Google fonts import, I made a concise decision to leave this as it does not affect the overall website. The warning is a notification that the validator will not validate my imported Google font.
-- Other warnings have come up due to the usage of two or more consectutive hyphens used in comments, I made a concise desicion to leave these as they help with code location on the pages.
+- Other warnings have come up due to the usage of two or more consecutive hyphens used in comments, I made a conscious decision to leave these as they help with code location on the pages.
 
 ![CSS Validator](./assets/readme/css-validator.png)
 
 ### Lighthouse
 
-I used the Lighthouse Google Chrome dev tools feature to test the wedsite in mobile and desktop view. 
+I used the Lighthouse Google Chrome dev tools feature to test the website in mobile and desktop view.
 
 - Desktop
 
   - The performance score was affected here due to the Home page images being a larger property size.
 
-![Lighthouse Destop](./assets/readme/lighthouse-desktop.png)
+![Lighthouse Desktop](./assets/readme/lighthouse-desktop.png)
 
 - Mobile
 
-  - A lower performance score was received on the mobile testing, this was due to my home page images being a larger property size. 
+  - A lower performance score was received on the mobile testing, this was due to my home page images being a larger property size.
 
 ![Lighthouse Mobile](./assets/readme/lighthouse-mobile.png)
 
@@ -167,7 +167,7 @@ I used the Lighthouse Google Chrome dev tools feature to test the wedsite in mob
 |Social media links in the footer - Open in a new tab in the browser|Passed|
 |Three navigation links in the header - Redirect to the correct pages|Passed|
 |Enquire form - Required fields message shown|Passed|
-|Enquire form submision - Redirected to the 'Thank you' page|Passed|
+|Enquire form submission - Redirected to the 'Thank you' page|Passed|
 
 ### Known bugs and fixes
 
@@ -182,7 +182,7 @@ I used the Lighthouse Google Chrome dev tools feature to test the wedsite in mob
 
 ### [GitHub](https://github.com/) deployment
 
-As this code is stored in GitHub, I deployed this webpage as folows:
+As this code is stored in GitHub, I deployed this webpage as follows:
 
 1. Login to GitHub
 2. Click the repository you wish to deploy (Top left corner)
@@ -208,7 +208,7 @@ Cloning a repository will download a full copy of the data to your computer. Thi
 
 ### Forking the GitHub repository
 
-Forking a GitHub repository will allow you to make a copy of the repository, changes can be tehn be made that will not affect the origional repository. This is useful for proposed changes, ideas or fixes to an origional repository.
+Forking a GitHub repository will allow you to make a copy of the repository, changes can be then be made that will not affect the original repository. This is useful for proposed changes, ideas or fixes to an original repository.
 
 1. Login to GitHub
 2. Click the repository you wish to fork (Top left corner)
@@ -222,13 +222,13 @@ Forking a GitHub repository will allow you to make a copy of the repository, cha
 - [CSS](https://en.wikipedia.org/wiki/CSS)
   - CSS was used to style the content of the web page
 - [Google Fonts](https://fonts.google.com/)
-  - Google Fonts was used to style the font thtoughout the web page
+  - Google Fonts was used to style the font throughout the web page
 - [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
-  - DevTools was used throughout the process of creating the web page to find bugs and test responsivness on elements etc.
+  - DevTools was used throughout the process of creating the web page to find bugs and test responsiveness on elements etc.
 - [Font Awesome](https://fontawesome.com/)
   - Font awesome was used for social media icons in the footer and thank you page
 - [TinyPNG](https://tinypng.com/)
-  - TinyPNG was used to resize the images in the Gallery for fatter laoding time
+  - TinyPNG was used to resize the images in the Gallery for faster loading time
 - [Codeanywhere](https://codeanywhere.com/)
   - Codeanywhere was used as the development environment for this web page
 - [GitHub](https://github.com/)
