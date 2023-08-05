@@ -116,7 +116,7 @@ This website was designed on desktop view first as I thought this would be the m
 
 ### HTML Validator
 
-- All of the HTML pages were passed through the official W3C HTML validatorn no errors were found.
+- All of the HTML pages were passed through the official [W3C HTML validator](https://validator.w3.org/) no errors were found.
 - A warning has come up for the Gallery HTML page, a section was used without a heading. This was fixed by replacing the section element with a div element.
 - Other warnings have come up due to the usage of two or more consectutive hyphens used in comments, I made a concise desicion to leave these as they help with code location on the pages.
 
@@ -124,13 +124,27 @@ This website was designed on desktop view first as I thought this would be the m
 
 ### CSS Validator
 
-- No errors were found when validating my CSS code through the official W3C CSS validator.
+- No errors were found when validating my CSS code through the official [W3C CSS validator](https://jigsaw.w3.org/css-validator/).
 - A warning has come back for my Google fonts import, I made a concise decision to leave this as it does not affect the overall website. The warning is a notification that the validator will not validate my imported Google font.
 - Other warnings have come up due to the usage of two or more consectutive hyphens used in comments, I made a concise desicion to leave these as they help with code location on the pages.
 
 ![CSS Validator](./assets/readme/css-validator.png)
 
 ### Lighthouse
+
+I used the Lighthouse Google Chrome dev tools feature to test the wedsite in mobile and desktop view. 
+
+- Desktop
+
+  - The performance score was affected here due to the Home page images being a larger property size.
+
+![Lighthouse Destop](./assets/readme/lighthouse-desktop.png)
+
+- Mobile
+
+  - A lower performance score was received on the mobile testing, this was due to my home page images being a larger property size. 
+
+![Lighthouse Mobile](./assets/readme/lighthouse-mobile.png)
 
 ### Manual Testing
 
