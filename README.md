@@ -8,23 +8,29 @@ The site is directly targered to engaged couples who require assistance with thi
 
 ![Responsive](./assets/readme/am-i-responsive.png)
 
-## User Experience
+## User Experience 
 
-### Strategy
+The target market of this webpage would be all couples who are looking for guidance / assisstance with planning their wedding.
 
-### Scope
+Users will be looking for clear, easy to read information about what we as a company can offer to their stressfree wedding planning process. A photo gallery is provided as users will see this as a reference for the type of service we offer to our clients and previous work we have done. Pictures speak a million words in a website like this.
+ 
+ The webpage is easy to navigate, has a soft color pallette with no over whelming amounts of content to read through. At first glance the websage offers animation of the logo as well as a beautiful image of a table setting at a wedding we planned.
 
-### Structure
+### Color Palette
 
-### Skeleton
+The color plalette used for the web page was considered, the look and feel I wanted for the website was soft but ellegant. I achieved this buy making use of both Hex and RGBA colors throughout the web page with a simple white background.
 
-### Surface
+![Color palette](./assets/readme/colors.png)
 
-## Features
+### Color Contrast
 
-This website was designed on desktop view first as I thought this would be the most likely way users will search for the services of a wedding planner.
+After running the website through a color contrast validator I was pleased to see the chosen colors work well together.
+
+![Color contrast](./assets/readme/color-contrast.png)
 
 ### Existing Features
+
+This website was designed on desktop view first as I thought this would be the most likely way users will search for the services of a wedding planner.
 
 - Logo and Navigation Bar
 
@@ -229,6 +235,8 @@ Forking a GitHub repository will allow you to make a copy of the repository, cha
   - Free formatter was used to format the CSS and HTML code throughout the web page
 - [Am I Responsive?](https://ui.dev/amiresponsive)
   - Used to for the image in the README file
+- [Coolors](https://coolors.co/)
+  - Coolors was used to generate the colors for the webpage as well as create RGB codes
 
 ## Credits
 
