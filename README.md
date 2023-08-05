@@ -112,6 +112,33 @@ This website was designed on desktop view first as I thought this would be the m
 
 ## Technologies Used
 
+- [HTML](https://en.wikipedia.org/wiki/HTML)
+  - HTML was used to structure the content of the web page
+- [CSS](https://en.wikipedia.org/wiki/CSS)
+  - CSS was used to style the content of the web page
+- [Google Fonts](https://fonts.google.com/)
+  - Google Fonts was used to style the font thtoughout the web page
+- [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+  - DevTools was used throughout the process of creating the web page to find bugs and test responsivness on elements etc.
+- [Font Awesome](https://fontawesome.com/)
+  - Font awesome was used for social media icons in the footer and thank you page
+- [TinyPNG](https://tinypng.com/)
+  - TinyPNG was used to resize the images in the Gallery for fatter laoding time
+- [Codeanywhere](https://codeanywhere.com/)
+  - Codeanywhere was used as the development environment for this web page
+- [GitHub](https://github.com/)
+  - GitHud is being used to store teh code for this web page
+- [Color Contrast Accessibility Validator](https://color.a11y.com/)
+  - Color Contrast Validator was used to test the web pages color contrast
+- [W3C Markup Validation](https://validator.w3.org/)
+  - W3C validator was used to validate all the HTML code in the web page
+- [W3C CSS Validation](https://jigsaw.w3.org/css-validator/)
+  - W3C validator was used to validate all the CSS code in the web page
+- [Free Formatter](https://www.freeformatter.com/)
+  - Free formatter was used to format the CSS and HTML code throughout the web page
+- [Am I Responsive?](https://ui.dev/amiresponsive)
+  - Used to for the image in the README file
+
 ## Testing
 
 ### HTML Validator
