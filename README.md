@@ -73,6 +73,12 @@ This website was designed on desktop view first as I thought this would be the m
 
 - Footer
 
+  - The footer has links to our social media pages, these will open up in a new tab tor ease of navigation for users.
+  - Company contact details have been added to the footer as I have taken into consideration that some users may want to get straight into contacting us rather than search for the details in another page.
+  - The social media links have added animation that will increase in size when the user hovers over either of them.
+
+![The footer](./assets/readme/footer.png)
+
 - Gallery
 
 - Contact Us page
@@ -108,4 +114,3 @@ This website was designed on desktop view first as I thought this would be the m
 ### Media
 
 ### Content
-
