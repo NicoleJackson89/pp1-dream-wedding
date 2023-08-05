@@ -90,7 +90,19 @@ This website was designed on desktop view first as I thought this would be the m
 
 - Contact Us page
 
+  - The contact us page includes a heading letting users know turn around time once teh form has been submitted. A short quote has been added to the bottom of the section.
+  - Our contact details and address using a Google maps link has been added as a feature for users to easily locate us.
+  - The enquiry form is for users who wish to be contacted back, they will be required to enter their names, email address and wedding date with the option to enter other details.
+  - Features added to the form will be on the 'send' button where this has been highlighted in a different color when hovered over.
+
+![Contact us](./assets/readme/contact-us.png)
+
 - Thank you page
+
+  - The user will be redirected to a 'Thank you' page after submitting the form.
+  - For the ease of navigation an interactive link to the home page has been added with a font awesome icon and animation to match the social media links in the footer.
+
+![Thank you](./assets/readme/thank-you.png)
 
 ### Future Features
 
