@@ -81,6 +81,13 @@ This website was designed on desktop view first as I thought this would be the m
 
 - Gallery
 
+  - The gallery has been added to provide users with supporting images of our work.
+  - The border radius was intentional to create a softer, welcoming look to the images.
+  - Images in the gallery would be of value to users as they would be a deciding factor of whether or not to contact us to provide a service to them.
+  - I have taken smaller screens into consideration, the gallery become smaller with the number of columns when screen sizes decrease.
+
+![Gallery](./assets/readme/gallery.png)
+
 - Contact Us page
 
 - Thank you page
