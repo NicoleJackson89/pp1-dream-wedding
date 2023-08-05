@@ -106,6 +106,10 @@ This website was designed on desktop view first as I thought this would be the m
 
 ### Future Features
 
+- Taking into consideration that clients from different locations in the country / world may want to make use of our services, we may add virtual assistance with a bookings and payment page. These will also have links to a skype, Google meets or Teams meetings with clients.
+- A review section where past clients can add there experience with us for possible future clients to see.
+- A video gallery can be added for users to enjoy a 3D view of our work. 
+
 ## Technologies Used
 
 ## Testing
