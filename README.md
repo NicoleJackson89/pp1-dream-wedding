@@ -110,36 +110,9 @@ This website was designed on desktop view first as I thought this would be the m
 - A review section where past clients can add there experience with us for possible future clients to see.
 - A video gallery can be added for users to enjoy a 3D view of our work.
 
-## Technologies Used
-
-- [HTML](https://en.wikipedia.org/wiki/HTML)
-  - HTML was used to structure the content of the web page
-- [CSS](https://en.wikipedia.org/wiki/CSS)
-  - CSS was used to style the content of the web page
-- [Google Fonts](https://fonts.google.com/)
-  - Google Fonts was used to style the font thtoughout the web page
-- [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
-  - DevTools was used throughout the process of creating the web page to find bugs and test responsivness on elements etc.
-- [Font Awesome](https://fontawesome.com/)
-  - Font awesome was used for social media icons in the footer and thank you page
-- [TinyPNG](https://tinypng.com/)
-  - TinyPNG was used to resize the images in the Gallery for fatter laoding time
-- [Codeanywhere](https://codeanywhere.com/)
-  - Codeanywhere was used as the development environment for this web page
-- [GitHub](https://github.com/)
-  - GitHud is being used to store teh code for this web page
-- [Color Contrast Accessibility Validator](https://color.a11y.com/)
-  - Color Contrast Validator was used to test the web pages color contrast
-- [W3C Markup Validation](https://validator.w3.org/)
-  - W3C validator was used to validate all the HTML code in the web page
-- [W3C CSS Validation](https://jigsaw.w3.org/css-validator/)
-  - W3C validator was used to validate all the CSS code in the web page
-- [Free Formatter](https://www.freeformatter.com/)
-  - Free formatter was used to format the CSS and HTML code throughout the web page
-- [Am I Responsive?](https://ui.dev/amiresponsive)
-  - Used to for the image in the README file
-
 ## Testing
+
+- HTML and CSS code was tested throught the building process of this web page using the W3C validator to fix any errors or warnings. This was to ensure a smoother final testing period at the end of the building process.
 
 ### HTML Validator
 
@@ -175,7 +148,21 @@ I used the Lighthouse Google Chrome dev tools feature to test the wedsite in mob
 
 ### Manual Testing
 
+|What was tested|Result|
+|---|---|
+|Social media links in the footer - Open in a new tab in the browser|Passed|
+|Three navigation links in the header - Redirect to the correct pages|Passed|
+|Enquire form - Required fields message shown|Passed|
+|Enquire form submision - Redirected to the 'Thank you' page|Passed|
+
 ### Known bugs and fixes
+
+|What was tested / Expected results|Actual Results|What was done to fix the bug|
+|---|---|---|
+|Page Logo - To stay within the parent div while animation is active|Overflow when the animation zoom is active|Changed the animation fill mode from both to forward only|
+|Margins in media queries for smaller screen sizes - Page content should be readable|Content overflow from the container div|Margins were reduced and display flex used where needed|
+|Run Gallery HTML code through the W3C validator|Section element lacking a heading element|Section element changed to a div element|
+|HTML Code for 'contact us' page through the HTML Validator|Error - p elements may not be a child of an h2 elements|p elements removed from h2 elements and listed below the h2 element|
 
 ## Deployment
 
@@ -184,6 +171,35 @@ I used the Lighthouse Google Chrome dev tools feature to test the wedsite in mob
 ### Cloning the GitHub repository
 
 ### Forking the GitHub repository
+
+## Technologies Used
+
+- [HTML](https://en.wikipedia.org/wiki/HTML)
+  - HTML was used to structure the content of the web page
+- [CSS](https://en.wikipedia.org/wiki/CSS)
+  - CSS was used to style the content of the web page
+- [Google Fonts](https://fonts.google.com/)
+  - Google Fonts was used to style the font thtoughout the web page
+- [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+  - DevTools was used throughout the process of creating the web page to find bugs and test responsivness on elements etc.
+- [Font Awesome](https://fontawesome.com/)
+  - Font awesome was used for social media icons in the footer and thank you page
+- [TinyPNG](https://tinypng.com/)
+  - TinyPNG was used to resize the images in the Gallery for fatter laoding time
+- [Codeanywhere](https://codeanywhere.com/)
+  - Codeanywhere was used as the development environment for this web page
+- [GitHub](https://github.com/)
+  - GitHud is being used to store the code for this web page
+- [Color Contrast Accessibility Validator](https://color.a11y.com/)
+  - Color Contrast Validator was used to test the web pages color contrast
+- [W3C Markup Validation](https://validator.w3.org/)
+  - W3C validator was used to validate all the HTML code in the web page
+- [W3C CSS Validation](https://jigsaw.w3.org/css-validator/)
+  - W3C validator was used to validate all the CSS code in the web page
+- [Free Formatter](https://www.freeformatter.com/)
+  - Free formatter was used to format the CSS and HTML code throughout the web page
+- [Am I Responsive?](https://ui.dev/amiresponsive)
+  - Used to for the image in the README file
 
 ## Credits
 
