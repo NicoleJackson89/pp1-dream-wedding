@@ -1,6 +1,6 @@
 # Dream Weddings
 
-## [View the website here](https://nicolejackson89.github.io/pp1-dream-wedding/)
+### [View the website here](https://nicolejackson89.github.io/pp1-dream-wedding/)
 
 As a service provider, Dream weddings was created to showcase what we as wedding planners can do for couples who plan to get married in the near future.
 
@@ -17,6 +17,12 @@ Users will be looking for clear, easy to read information about what we as a com
 The webpage consists of three pages to separate the different aspects of the website, with an easy to navigate nav bar at the top of each page, and has a soft color palette with no overwhelming amounts of content to read through. At first glance the webpage offers animation on the logo as well as a beautiful image of a table setting at a wedding we planned.
 
 A simple enquiry form was added for users to add their details if they wished to be contacted. The business contact details are also included as well as the location if users decided to visit the store.
+
+### Wireframe
+
+- The [wireframe](assets/readme/wireframe.png) created for the webpage was designed to be user friendly. The original layout has changed slightly with some additions.
+- While building the website, I realised it would be a good idea to add a section introducing the user to the wedding planner team. The 'Who we are' section was then added with an image and introduction.
+- Another page was added that redirects the user to a 'thank you' page after submiting the enquiry form.
 
 ### Color Palette
 
